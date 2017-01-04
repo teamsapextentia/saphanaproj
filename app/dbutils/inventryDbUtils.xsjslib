@@ -1,8 +1,8 @@
 /**
- * main controller
- * Responsible for Handling all front end requests
+ * inventryDBUtils
+ * Responsilbe for db operation for inventry and inventry managment
  * Author: Extentia Information Technology
- * Date: 08/05/2016
+ * Date: 04/01/2017
  * 
  * */
 
@@ -13,16 +13,7 @@ var inventryDbUtils = $.import(CONSTANTS.dbutilsPackageName,'inventryDbUtils').i
 var issueDbUtils = $.import(CONSTANTS.dbutilsPackageName,'issueDbUtils').issueDbUtils;
 var notificationUtils = $.import(CONSTANTS.libPackageName,'notification').notificationUtils;
 
+var sqlTables = CONSTANTS.SQL_TABLE();
 
 
-
-var client = new $.net.http.Client();
-
-/**
-* Responsible for fetching updated data from vendor's DB and updates into STEPS DB w.r.t. scheduler job configured (xsjob)
-* 
-* @method testFunction
-* @params input {Object} device name and emp id
-* @return count {Integer} Number of record updated
-*/
-function testFunction(input){}
+var inventryDBUtils = {};

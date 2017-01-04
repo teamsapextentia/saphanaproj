@@ -1,0 +1,16 @@
+service {  
+        "TELLME_DEV"."USERS" as "Users";    
+        "TELLME_DEV"."ADDRESS" as "Address";  
+        "TELLME_DEV"."ANNOUNCEMENT" as "Announcement";  
+        "TELLME_DEV"."EXPERT_TYPE" as "ExpertType";
+        "TELLME_DEV"."FEEDBACK" as "Feedback";
+        "TELLME_DEV"."INVENTORY" as "Inventory";
+        "TELLME_DEV"."ISSUES" as "Issues";
+        "TELLME_DEV"."ISSUE_CATEGORY" as "IssueCategory";
+        "TELLME_DEV"."ISSUE_FOR" as "IssueFor";
+        "TELLME_DEV"."ISSUE_IMAGE" as "IssueImage";
+        "TELLME_DEV"."ISSUE_TRANSACTION" as "IssueTransaction";
+        "TELLME_DEV"."NOTIFICATION" as "Notification";
+        "TELLME_DEV"."SUPERVISOR_TYPE" as "SupervisorType";
+        "TELLME_DEV"."USER_DEVICE_DETAILS" as "UserDeviceDetails";
+} 
