@@ -32,7 +32,7 @@ context tellme_devModel {
 					DATECREATED: LocalDate; 
 					DEVICEID: SmallString; 
 					DELIVERYADDRESS: VeryLongString;              
-					DATA: Double;    } 
+					DATA: Double;    } 			
 					
 	};
 

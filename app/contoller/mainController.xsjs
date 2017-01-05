@@ -2,7 +2,7 @@
  * main controller
  * Responsible for Handling all front end requests
  * Author: Extentia Information Technology
- * Date: 08/05/2016
+ * Date: 08/01/2017
  * 
  * */
 
@@ -25,4 +25,6 @@ var client = new $.net.http.Client();
 * @params input {Object} device name and emp id
 * @return count {Integer} Number of record updated
 */
-function testFunction(input){}
+function testFunction(input){
+	
+}
