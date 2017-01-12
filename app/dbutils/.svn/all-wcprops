@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/ExtentiaProjects/!svn/ver/284024/Projects/SAPHCP/tellme/app/dbutils
+END
+inventryDbUtils.xsjslib
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/ExtentiaProjects/!svn/ver/284617/Projects/SAPHCP/tellme/app/dbutils/inventryDbUtils.xsjslib
+END
+userDbUtils.xsjslib
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/ExtentiaProjects/!svn/ver/284617/Projects/SAPHCP/tellme/app/dbutils/userDbUtils.xsjslib
+END
+helperDbUtils.xsjslib
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/ExtentiaProjects/!svn/ver/284024/Projects/SAPHCP/tellme/app/dbutils/helperDbUtils.xsjslib
+END
+issueDbUtils.xsjslib
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/ExtentiaProjects/!svn/ver/284617/Projects/SAPHCP/tellme/app/dbutils/issueDbUtils.xsjslib
+END

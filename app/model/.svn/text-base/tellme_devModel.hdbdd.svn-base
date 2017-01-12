@@ -1,15 +1,23 @@
-namespace tellme_dev.model;
+namespace tellme_dev.app.model;
 @Schema: 'TELLMEADMIN' 
 context tellme_devModel {
 		type SmallString: String(50);    
 		type LongString: String(200);    
 		type VeryLongString: String(1000);
 		
+		entity TEST { 
+					key id: Integer; 
+					name:SmallString;
+					
+		}
+		
 		entity TellMe_DEVICETYPES_INFO { 
 					key DEVICETYPEID: SmallString; 
 					SHORTDESCRIPTION: SmallString; 
 					LONGDESCRIPTION: LongString; 
-					DATECREATED: LocalDate; 
+					DATECREATED: LocalDate;
+					CREATED: LocalDate;
+					TESTCOLUMN: SmallString;
 				}
 		entity TellMe_MOB_SUBSCRIPTION { 
 					key ID: SmallString; 
@@ -24,7 +32,7 @@ context tellme_devModel {
 					DATECREATED: LocalDate; 
 					DEVICEID: SmallString; 
 					DELIVERYADDRESS: VeryLongString;              
-					DATA: Double;    } 
+					DATA: Double;    } 			
 					
 	};
 

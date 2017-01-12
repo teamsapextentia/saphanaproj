@@ -1,6 +1,0 @@
-service {  
-        "TELLMEADMIN"."tellme_dev.model::tellme_devModel.TellMe_DEVICETYPES_INFO" as "DeviceTypesInfo";    
-        "TELLMEADMIN"."tellme_dev.model::tellme_devModel.TellMe_MOB_NOTIFICATION" as "Subscription";  
-        "TELLMEADMIN"."tellme_dev.model::tellme_devModel.TellMe_MOB_SUBSCRIPTION" as "Notification";  
-        
-    } 
